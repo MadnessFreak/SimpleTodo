@@ -1,0 +1,128 @@
+/* Default */
+
+body {
+	background-color: #eceff0;
+}
+
+body,
+input {
+	font: 1em sans-serif;
+	color: #363639; 
+}
+
+a {
+	color: #4078C0;
+	border: 0;
+	text-decoration: none;
+	/*border-bottom: 1px dashed #363639;*/
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* List */
+.list {
+	background-color: #fff;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 580px;
+	padding: 20px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+.list .header {
+	margin: 0 0 10px 0;
+}
+
+/* Items */
+.items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.items .item.done {
+	text-decoration: line-through;
+}
+
+.items li:hover .done-button {
+	opacity: 1;
+}
+
+.items li,
+.item-add .input {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 15px 0;
+}
+
+.input {
+	width: 100%;
+}
+
+.input:focus {
+	outline: none;
+}
+
+/* Done button */
+.items .done-button {
+	display: inline-block;
+	font-size: 0.8em;
+	color: #363639;
+	background-color: #d9dfe1;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.4;
+	float: right;
+}
+
+/* Submit button */
+.submit {
+	background-color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 3px 3px 0 #ddd;
+}
+
+/* Login */
+.login .input {
+	border: 1px dashed #ccc;
+	padding: 15px 0;
+	margin: 5px 5px 0 0;
+}
+
+/* Footer */
+.footer {
+	margin: 0px auto;
+	width: 100%;
+	max-width: 580px;
+	padding: 5px;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer li {
+	border: 0;
+	padding-left: 3px;
+	display: inline-block;
+}
+
+.footer li a {
+	
+}
+
+.footer li a:hover {
+	color: #4078C0;
+	text-decoration: underline;
+}
